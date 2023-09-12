@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Форма для POST запроса</title>
+</head>
+<body>
+<form action="/submit" method="post">
+    <input type="text" name="name" placeholder=" Укажите имя ">
+    <input type="text" name="post" placeholder=" Укажите электронный адрес">
+        <label for="product-select">@</label>
+        <select name="sel"  id = "product-select">
+            <option value="#">-- выберите доменное имя --</option>
+            <option value="http://127.0.0.1:5000/base/" >example.com</option>
+            <option value="http://127.0.0.1:5000/base/" >mail.ru</option>
+            <option value="http://127.0.0.1:5000/base/" >gmail.com</option>
+        </select>
+    <input type="submit" value="Отправить">
+</form>
+</body>
+</html>
